@@ -1,16 +1,61 @@
-body {
-  font-family: "Roboto", sans-serif;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-header img {
+body {
+  font-family: "Merriweather", serif;
+  color: rgb(32, 32, 32);
+}
+
+/* Sezione logo e patter */
+.logo-section {
+  height: 80px;
+  background-image: url(../img/pattern.png);
+  background-color: rgb(90, 159, 249);
+  background-size: 22%;
+  margin-bottom: 20px;
+}
+
+.logo-section img {
   padding: 25px 0 0 5px;
   height: 50px;
 }
 
-.logo-section {
-  height: 80px;
-  width: auto;
-  background-image: url(../img/pattern.png);
-  background-color: rgb(90, 159, 249);
-  background-size: 22%;
+/* Sezione titolo articolo */
+.title-section {
+  margin-bottom: 18px;
+  padding: 0 5px 0 5px;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+#sub-title {
+  color: gray;
+  font-size: 14px;
+}
+
+#sub-title a {
+  text-decoration: none;
+  color: rgb(0, 145, 255);
+}
+
+#article-date {
+  color: gray;
+  font-size: 10px;
+}
+
+/* Sezione immagini principali */
+.header-img-section {
+  padding: 0 5px 0 5px;
+}
+
+.header-img-section img {
+  height: 350px;
+}
+
+.img-description {
+  font-size: 10px;
 }
