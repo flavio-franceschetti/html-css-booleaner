@@ -8,6 +8,15 @@ body {
   color: rgb(32, 32, 32);
 }
 
+p {
+  font-size: 12px;
+}
+
+/* HEADER */
+header {
+  margin-bottom: 18px;
+}
+
 /* Sezione logo e patter */
 .logo-section {
   height: 80px;
@@ -58,4 +67,23 @@ h1 {
 
 .img-description {
   font-size: 10px;
+}
+
+/* MAIN */
+
+main {
+  padding: 0 5px 0 5px;
+}
+
+.first-paragraph {
+  margin-bottom: 20px;
+}
+
+.emphasized {
+  background-color: yellow;
+}
+
+ul {
+  padding-left: 20px;
+  font-size: 12px;
 }
