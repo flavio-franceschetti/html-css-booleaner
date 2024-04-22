@@ -1,3 +1,15 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+header img {
+  height: 50px;
+}
+
+.logo-section {
+  height: 80px;
+  width: auto;
+  background-image: url(../img/pattern.png);
+  background-color: rgb(90, 159, 249);
+  background-size: 22%;
+}
