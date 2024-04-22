@@ -12,6 +12,11 @@ p {
   font-size: 12px;
 }
 
+main,
+footer {
+  padding: 0 200px 0 200px;
+}
+
 /* HEADER */
 header {
   margin-bottom: 18px;
@@ -27,14 +32,13 @@ header {
 }
 
 .logo-section img {
-  padding: 25px 0 0 5px;
+  padding: 25px 0 0 200px;
   height: 50px;
 }
 
 /* Sezione titolo articolo */
 .title-section {
   margin-bottom: 18px;
-  padding: 0 5px 0 5px;
 }
 
 h1 {
@@ -57,9 +61,6 @@ h1 {
 }
 
 /* Sezione immagini principali */
-.header-img-section {
-  padding: 0 5px 0 5px;
-}
 
 .header-img-section img {
   height: 350px;
@@ -72,12 +73,12 @@ h1 {
 /* MAIN */
 
 main {
-  padding: 0 5px 0 5px;
   margin-bottom: 35px;
 }
 
 .first-paragraph {
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .emphasized {
@@ -117,9 +118,6 @@ td:last-child {
 }
 
 /* FOOTER */
-footer {
-  padding: 0 5px 0 5px;
-}
 
 h4 {
   font-size: 14px;
