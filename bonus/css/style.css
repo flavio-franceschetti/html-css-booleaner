@@ -20,6 +20,7 @@ footer {
 /* HEADER */
 header {
   margin-bottom: 18px;
+  box-shadow: 0 3px 5px 0 #48484875;
 }
 
 /* Sezione logo e patter */
@@ -144,4 +145,9 @@ footer a {
   background-image: url(../img/graph.jpg);
   height: 207px;
   width: 311px;
+}
+
+.other-links {
+  display: flex;
+  gap: 5px;
 }
