@@ -73,6 +73,7 @@ h1 {
 
 main {
   padding: 0 5px 0 5px;
+  margin-bottom: 35px;
 }
 
 .first-paragraph {
@@ -93,6 +94,7 @@ ul {
 table {
   font-size: 12px;
   border-spacing: 0;
+  margin-bottom: 18px;
 }
 
 thead {
@@ -112,4 +114,36 @@ td {
 
 td:last-child {
   width: 50%;
+}
+
+/* FOOTER */
+footer {
+  padding: 0 5px 0 5px;
+}
+
+h4 {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 18px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+#first-footer-link {
+  display: block;
+  background-image: url(../img/monitor.jpg);
+  height: 207px;
+  width: 311px;
+  margin-bottom: 14px;
+}
+
+#second-footer-link {
+  display: block;
+  background-image: url(../img/graph.jpg);
+  height: 207px;
+  width: 311px;
 }
